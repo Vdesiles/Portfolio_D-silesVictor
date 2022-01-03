@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+        <title>Victor Désiles</title>
+    </head>
+    <link rel="stylesheet" href="./src/style.css">
+    <!-- triangle svg en html
+        <svg transform="rotate(180) viewBox="0 0 100 120">
+        <polygon  points="50 15, 100 100, 0 100"/>
+    </svg> -->
+    <body>
+        <header id="top">
+            <nav>
+                <h1>Victor Désiles</h1>
+                <p id="font-titre" aria-hidden="true">Victor Désiles</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.3 514.9"><polygon points="297.3 514.9 0 0 594.6 0 297.3 514.9" fill="#f5f5e3"/><polygon points="293.1 56.1 97.1 56.1 293.1 395.6 293.1 56.1" fill="#07708c"/><polygon points="448.6 141.2 301.9 395.2 595.3 225.8 448.6 141.2" fill="#3ab079"/><polygon points="441.6 137.1 301.3 56.1 301.3 380.1 441.6 137.1" fill="#058c81"/><polygon points="488.3 56.2 301.4 56.2 441.6 137.1 488.3 56.2" fill="#07708c"/></svg>
+                    <div class="triangle-menu triangle-menu-gauche">
+                        <div class="t-menu-clip triangle-menu-gauche-clip">
+                            <div class="t-menu-enfants triangle-menu-gauche-enfant-g"><div></div></div>
+                            <div class="t-menu-enfants triangle-menu-gauche-enfant-d"><div></div></div>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#competence">Compétence</a></li>
+                        <li><a href="#parcours">Parcours</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="triangle-menu triangle-menu-droite">
+                        <div class="t-menu-clip triangle-menu-droite-clip">
+                            <div class="t-menu-enfants triangle-menu-droite-enfant-g"><div></div></div>
+                            <div class="t-menu-enfants triangle-menu-droite-enfant-d"><div></div></div>
+                        </div>
+                    </div>
+            </nav>
+        </header>
+        <section id="competence">
+            <div class="triangle-h2">
+                <p aria-hidden="true">Compétences</p>
+                <div>
+                    <h2>Compétences</h2>
+                </div>
+            </div>
+            <div id="competence-grid">
+                <article>
+                    <p aria-hidden="true" id="font-text-competence-design">Design</p>
+                    <ul id="competence-design">
+                        <h3>Design</h3>
+                        <p aria-hidden="true">Design</p>
+                        <li>
+                            <img src="./src/logo/adobe-xd.svg" alt="Adobe XD">
+                            <h4>XD</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/adobe-premiere.svg" alt="Adobe Premiere">
+                            <h4>Premiere</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/adobe-photoshop.svg" alt="Adobe Photoshop">
+                            <h4>Photoshop</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/adobe-illustrator.svg" alt="Adobe Illustrator">
+                            <h4>Illustrator</h4>
+                        </li>
+                        <div class="competence-triangle-fond"></div>
+                    </ul>
+                </article>
+                <article>
+                    <p aria-hidden="true" id="font-text-competence-musique">Musique</p>
+                    <ul id="competence-musique">
+                        <h3>Musique</h3>
+                        <p aria-hidden="true">Musique</p>
+                        <li>
+                            <img src="./src/logo/ableton.svg" alt="Ableton Live">
+                            <h4>Ableton</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/protools.png" alt="Protools">
+                            <h4>Protools</h4>
+                        </li>
+                        <div class="competence-triangle-fond"></div>
+                    </ul>
+                </article>
+                <article>
+                    <p aria-hidden="true" id="font-text-competence-dev">Developpement</p>
+                    <ul id="competence-dev">
+                        <h3>Developpement</h3>
+                        <p aria-hidden="true">Developpement</p>
+                        <li>
+                            <img src="./src/logo/css-3.svg" alt="Css 3">
+                            <h4>CSS</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/html-5.svg" alt="Html 5">
+                            <h4>HTML</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/javascript-4.svg" alt="JavaScript 4">
+                            <h4>JavaScript</h4>
+                        </li>
+                        <li>
+                            <img src="./src/logo/wordpress.svg" alt="Wordpress">
+                            <h4>WordPress</h4>
+                        </li>
+                        <div class="competence-triangle-fond"></div>
+                    </ul>
+                </article>
+            </div>
+        </section> 
+        
+        <section id="parcours">
+            <div class="triangle-h2">
+                <p aria-hidden="true">Parcours</p>
+                <div>
+                    <h2>Parcours</h2>
+                </div>
+            </div>
+            <table class="parcours-tableau">
+                <tbody>
+                    <tr>
+                        <th><h3>Alternance Designer Web</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2021</h3></div><p aria-hidden="true">2021</p></th>
+                        <th><h3>Dawan Nantes (44)</h3></th>
+                    </tr>
+                    <tr>
+                        <th><h3>POE Développeur FullStack</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2020</h3></div><p aria-hidden="true">2020</p></th>
+                        <th><h3>Dawan Nantes (44)</h3></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Facteur (Interim & CDD)</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2019</h3></div><p aria-hidden="true">2019</p></th>
+                        <th><h3>Nantes (44) / le Mans (72)</h3></th>
+                    </tr>
+                    <tr>
+                        <th><h3>L2 Informatique</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2018</h3></div><p aria-hidden="true">2018</p></th>
+                        <th><h3>Université du Maine (72)</h3></th>
+                    </tr>
+                    <tr>
+                        <th><h3>L2 Acoustique</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2017</h3></div><p aria-hidden="true">2017</p></th>
+                        <th><h3>Université du Maine (72)</h3></th>
+                    </tr>
+                    <tr>
+                        <th><h3>ENSIM</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2016</h3></div><p aria-hidden="true">2016</p></th>
+                        <th><h3>le Mans (72)</h3></th>
+                    </tr>
+                    <tr>
+                        <th><h3>Baccalauréat Scientifique</h3></th>
+                        <th class="parcours-triangle-date capture-scroll"><div><h3>2014</h3></div><p aria-hidden="true">2014</p></th>
+                        <th><h3>Montval sur Loir (72)</h3></th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="projets">
+            <div class="triangle-h2">
+                <p aria-hidden="true">Projets</p>
+                <div>
+                    <h2>Projets</h2>
+                </div>
+            </div>
+            <div id="projets-grid">
+                <div class="projets-col" id="projets-design">
+                    <div class="triangle-projets-h3">
+                        <div><h3>Design</h3></div>
+                        <p>Design</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <article class="article-gauche capture-scroll" >
+                                <h4>Maquette</h4>
+                            </article>
+                            <p aria-hidden="true">Maquette</p>
+                        </li>
+                        <li>
+                            <article class="article-droite capture-scroll" >
+                                <h4>Retouche</h4>
+                            </article>
+                            <p aria-hidden="true">Retouche</p>
+                        </li>
+                        <li>
+                            <article class="article-gauche capture-scroll" >
+                                <h4>Pochette</h4>
+                            </article>
+                            <p aria-hidden="true">Pochette</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="projets-col" id="projets-musique">
+                    <div class="triangle-projets-h3">
+                        <div><h3>Musique</h3></div>
+                        <p>Musique</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <article class="article-gauche capture-scroll" onclick="playPause(this)">
+                                <audio width="300" height="32" ontimeupdate="updateTime(this)"><source src="./src/msq/Composition.mp3" type="audio/mp3" /></audio>
+                                <h4>Composition</h4>
+                            </article>
+                            <p aria-hidden="true">Composition</p>
+                        </li>
+                        <li>
+                            <article class="article-droite capture-scroll" onclick="playPause(this)">
+                                <audio width="300" height="32" ontimeupdate="updateTime(this)"><source src="./src/msq/Synchronisation.mp3" type="audio/mp3" /></audio>
+                                <h4>Synchronisation</h4>
+                            </article>
+                            <p aria-hidden="true">Synchronisation</p>
+                        </li>
+                        <li>
+                            <article class="article-gauche capture-scroll" onclick="playPause(this)">
+                                <audio width="300" height="32" ontimeupdate="updateTime(this)"><source src="./src/msq/Mixage.mp3" type="audio/mp3" /></audio>
+                                <h4>Mixage</h4>
+                            </article>
+                            <p aria-hidden="true">Mixage</p>
+                        </li>
+                        <li>
+                            <article class="article-droite capture-scroll" onclick="playPause(this)">
+                                <audio width="300" height="32" ontimeupdate="updateTime(this)"><source src="./src/msq/Production.mp3" type="audio/mp3" /></audio>
+                                <h4>Production</h4>
+                            </article>
+                            <p aria-hidden="true">Production</p>
+                        </li>
+                        <li>
+                            <article class="article-gauche capture-scroll" onclick="playPause(this)">
+                                <audio width="300" height="32" ontimeupdate="updateTime(this)"><source src="./src/msq/Beatmaking.mp3" type="audio/mp3" /></audio>
+                                <h4>Beatmaking</h4>
+                            </article>
+                            <p aria-hidden="true">Beatmaking</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="projets-col" id="projets-dev">
+                    <div class="triangle-projets-h3">
+                        <div><h3>Developpement</h3></div>
+                        <p>Developpement</p>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://cabaca.biz"  target="_blank">
+                                    <article class="article-gauche capture-scroll" >
+                                        <h4>Cabaca</h4>
+                                    </article>
+                                    <p aria-hidden="true">Cabaca</p>
+                            </a>
+                            <div class="projets-logo-techno">
+                                <img src="./src/logo/css-3.svg" alt="Css 3">
+                                <img src="./src/logo/javascript-4.svg" alt="JavaScript 4">
+                                <img src="./src/logo/wordpress.svg" alt="Wordpress">
+                            </div>
+                        </li>
+                        <li>  
+                            <a href="https://pardawan.com" target="_blank">
+                                <article class="article-droite capture-scroll" >
+                                    <h4>Pardawan</h4>
+                                </article>
+                                <p aria-hidden="true">Pardawan</p>
+                            </a>
+                            <div class="projets-logo-techno">
+                                <img src="./src/logo/css-3.svg" alt="Css 3">
+                                <img src="./src/logo/javascript-4.svg" alt="JavaScript 4">
+                                <img src="./src/logo/wordpress.svg" alt="Wordpress">
+                            </div>
+                        </li>
+                        <li>
+                            <a href="https://java-online.fr" target="_blank">
+                                <article class="article-gauche capture-scroll" >
+                                    <h4>JavaOnline</h4>
+                                </article>
+                                <p aria-hidden="true">JavaOnline</p>
+                            </a>
+                            <div class="projets-logo-techno">
+                                <img src="./src/logo/css-3.svg" alt="Css 3">
+                                <img src="./src/logo/javascript-4.svg" alt="JavaScript 4">
+                                <img src="./src/logo/wordpress.svg" alt="Wordpress">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="projets-fermer-modale-design"><a aria-hidden="true" disabled="disabled"></a></div>
+                <div id="projets-fond"></div>
+                <div class="projets-image-design"></div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <div class="triangle-h2">
+                <p aria-hidden="true">Contact</p>
+                <div>
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <form method="POST" action="https://api.web3forms.com/submit">
+                <input type="hidden" name="apikey" value="a2af4071-d688-44fd-a0cf-e5a251869c4e">
+                <div class="champ-formulaire">
+                <label for="name" class="screenreader-seulement">Entrez votre nom: </label>
+                <input type="text" name="nom" id="nom" value="Entrez votre nom " required>
+                </div>
+                <div class="champ-formulaire">
+                <label for="email" class="screenreader-seulement">Entrez votre email: </label>
+                <input type="email" name="email" id="email" value ="Votre@Email " required>
+                </div>
+                <div class="champ-formulaire">
+                    <textarea name="message" required>Entrez votre demande ici:</textarea>
+                </div>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <div class="champ-formulaire">
+                    <input type="submit" value="Envoyez votre message">
+                </div>
+            </form>
+        </section>
+        <div id="body-fond"></div>
+        <footer>
+            <nav>   
+                <div class="triangle-menu triangle-menu-gauche">
+                    <div class="t-menu-clip triangle-menu-gauche-clip">
+                        <div class="t-menu-enfants triangle-menu-gauche-enfant-g"><div></div></div>
+                        <div class="t-menu-enfants triangle-menu-gauche-enfant-d"><div></div></div>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#competence">Compétence</a></li>
+                    <li><a href="#parcours">Parcours</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="triangle-menu triangle-menu-droite">
+                    <div class="t-menu-clip triangle-menu-droite-clip">
+                        <div class="t-menu-enfants triangle-menu-droite-enfant-g"><div></div></div>
+                        <div class="t-menu-enfants triangle-menu-droite-enfant-d"><div></div></div>
+                    </div>
+                </div>
+                <div id="triangle-logo-mask">
+                    <a id="ancre" href="#top"></a>
+                    <a id="triangle-logo-droite" aria-hidden="true" href="#top"></a>
+                    <div id="triangle-logo-fond"></div>
+                </div>
+            </nav>
+        </footer>
+    </body>
+    <script type="text/javascript" src="./src/script.js"></script>
+</html>
